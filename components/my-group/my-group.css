@@ -1,0 +1,15 @@
+:host {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3rem 1fr;
+    height: 20rem;
+    width: 20rem;
+    border: 1px solid black;
+}
+#my-header, #my-content{
+    border: 1px solid grey;
+    padding: 0.5rem;
+}
+#my-header {
+    display: flex;
+}
